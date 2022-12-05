@@ -1,0 +1,13 @@
+heater: 'Homeoffice'
+plug: 'Smart plug 1'
+
+fritzbox:
+  endpoint: 'https://fritz.box'
+  username: 'fritz'
+  password: 'SuperSecurePW'
+
+tuya:
+  username: 'tuya@example.com'
+  password: 'SuperSecurePW'
+  country_code: '49'
+  brand: 'smart_life'

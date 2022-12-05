@@ -1,0 +1,5 @@
+source 'https://rubygems.org'
+gem 'config'
+gem 'fritzbox-smarthome'
+gem 'tuya_cloud'
+gem 'rufus-scheduler'
