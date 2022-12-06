@@ -4,7 +4,6 @@ require 'fritzbox/smarthome'
 require 'rufus-scheduler'
 
 Config.load_and_set_settings("./config/settings.yaml")
-puts Settings.heater
 
 HEATER = Settings.heater
 PLUG = Settings.plug
@@ -32,6 +31,7 @@ plug = api.find_device_by_name(PLUG)
 scheduler = Rufus::Scheduler.new
 
 scheduler.every '10m' do
+    heater.reload
     temp_set = heater.hkr_temp_set
     temp_is = heater.hkr_temp_is
 
