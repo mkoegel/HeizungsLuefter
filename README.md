@@ -44,7 +44,7 @@ I use this for the heater in my homeoffice which is a bit small for the room siz
 1. Clone the repository
 2. Create a copy of the settings.example.yaml as settings.yaml and change it with your settings.
 3. Install the dependencies with `bundle install`
-4. Run the program with `bundle exec ruby heizungsluefter.rb`
+4. Run the program with `bundle exec ruby lueftersteuerung.rb`
 
 ## Thanks
 
