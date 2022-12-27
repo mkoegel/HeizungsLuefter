@@ -31,13 +31,13 @@ I use this for the heater in my homeoffice which is a bit small for the room siz
 ## Assembly
 1. Clamp the first fan into the cover of the cable duct 10-15cm from the end.
 2. Cut triangles into the sides of the cable duct so you can bend it by 90°.
-3. Repeat 2. for the next side of the fan.
-4. Cut pieces of the cable duct as separators between the fans. 6 pieces if you have 4 fans like me.
-5. Assemble the other fans with the distance pieces in between.
-6. Connect the fans with the extra cable and attach the power supply.
+3. Repeat 2. for the next side of the fan. [It should look like this now.](/docs/images/bend.png)
+4. Cut pieces of the cable duct as separators between the fans. 6 pieces if you have 4 fans like me. [Picture of cut pieces](/docs/images/distance-pieces.png).
+5. Assemble the other fans with the distance pieces in between. [Picture of this stage](/docs/images/fans-assembled.png).
+6. Connect the fans with the extra cable and attach the power supply. [Picture of soldering](/docs/images/soldering.png).
 7. Test that the fans work.
-8. Bend the duct cover around the last fan (repeat 2 and 3) and clip it onto the other side of the fans.
-9. Cover the cables with the remaining distancing pieces.
+8. Bend the duct cover around the last fan (repeat 2 and 3) and clip it onto the other side of the fans. 
+9. Cover the cables with the remaining distancing pieces. [Final test](/docs/images/final-test.png).
 10. Attach the magnets with clue or put them into the distance pieces.
 
 ## Installation
