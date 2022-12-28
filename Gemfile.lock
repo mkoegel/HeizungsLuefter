@@ -47,7 +47,7 @@ GEM
       zeitwerk (~> 2.6)
     et-orbi (1.2.7)
       tzinfo
-    fritzbox-smarthome (0.6.0)
+    fritzbox-smarthome (0.7.0)
       activemodel (>= 5.1, <= 7.1)
       activesupport (>= 5.1, <= 7.1)
       httparty (~> 0.20)
@@ -72,7 +72,7 @@ GEM
       racc (~> 1.4)
     nori (2.6.0)
     raabro (1.4.0)
-    racc (1.6.1)
+    racc (1.6.2)
     rufus-scheduler (3.8.2)
       fugit (~> 1.1, >= 1.1.6)
     tuya_cloud (0.1.5)
