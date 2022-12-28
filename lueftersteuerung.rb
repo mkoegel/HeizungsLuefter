@@ -26,6 +26,10 @@ country_code=Settings.tuya.country_code
 brand=Settings.tuya.brand
 api = TuyaCloud::API.new(username, password, country_code, brand)
 plug = api.find_device_by_name(PLUG)
+if (!plug.controls.online) then
+    abort "Plug '#{plug.name}' is not online!"
+end
+
 
 # Schedule regular checks
 scheduler = Rufus::Scheduler.new
@@ -38,10 +42,10 @@ scheduler.every '10m' do
     puts "Checking temperatur at #{Time.now} - Set: #{temp_set} - Is: #{temp_is}"
     if (temp_set > temp_is) then
         puts "Turning fan on"
-        plug.controls.turn_on
+        plug.controls.turn_on if plug.controls.online
     else
         puts "Turning fan off"
-        plug.controls.turn_off
+        plug.controls.turn_off if plug.controls.online
     end
 end
 
