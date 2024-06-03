@@ -9,7 +9,7 @@ GEM
       minitest (>= 5.1)
       tzinfo (~> 2.0)
     concurrent-ruby (1.2.3)
-    config (5.4.0)
+    config (5.5.1)
       deep_merge (~> 1.2, >= 1.2.1)
     deep_merge (1.2.2)
     et-orbi (1.2.7)
