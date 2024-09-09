@@ -53,8 +53,8 @@ GEM
       bigdecimal
     raabro (1.4.0)
     racc (1.8.0)
-    rufus-scheduler (3.9.1)
-      fugit (~> 1.1, >= 1.1.6)
+    rufus-scheduler (3.9.2)
+      fugit (~> 1.1, >= 1.11.1)
     tuya_cloud (0.1.5)
     tzinfo (2.0.6)
       concurrent-ruby (~> 1.0)
